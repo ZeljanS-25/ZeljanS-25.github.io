@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome Without Server",
+            "file": "index.html", // Points to your main HTML file
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
